@@ -1,0 +1,21 @@
+header h1 a {text-decoration: none;}
+header h1 a:link, header h1 a:visited { color: darkblue; }
+table { border: 1px solid black; border-collapse: collapse; font-size: larger;}
+th, td { padding: 2px 5px; border: 1px solid black; }
+thead { background: #ddd; }
+table#esper {margin-left:auto; margin-right:auto;}
+table#esper a:link, table#esper a:visited { color: black; }
+
+td.A { background: yellow; }
+td.B { background: blue;       color: white; }
+td.C { background: red;        color: white; }
+td.D { background: chartreuse; }
+td.F { background: brown;      color: white; }
+
+table#esper tr td:nth-child(5), td.m { color: red; }
+table#esper tr td:nth-child(6), td.s { color: blue; }
+table#esper tr td:nth-child(7), td.r { color: orange; }
+table#esper tr td:nth-child(8), td.l { color: blueviolet; }
+table#esper tr td:nth-child(9), td.f { color: green; }
+
+table#esper tr td:nth-child(2) { text-align: center; font-weight: bolder; }
