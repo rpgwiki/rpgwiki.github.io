@@ -1,0 +1,99 @@
+html { height: 100%; }
+.cyclopes img { width: 100%; }
+.last, .cen { text-align: center; }
+.rig { text-align: right; }
+
+a:link, a:visited, a:hover, a:active { color: darkblue; }
+
+blockquote
+{
+	border: solid 2px black;
+	padding: 5px;
+}
+
+body
+{ 
+	font-family: Luciole, Verdana, sans-serif;
+	font-size: 12px;
+	background: #efe6dd;
+	height: 100%;
+}
+
+.face
+{
+	width: 100px;
+	float: left;
+	height: 100%;
+}
+
+.text
+{
+	width: calc(100% - 310px);
+	display: inline-block;
+}
+
+.cyclopes
+{
+	width: 200px;
+	float: right;
+}
+
+.all
+{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.splash
+{
+  position: absolute;
+  height: 324px;
+  width: 721px;
+  padding: 20px;
+  margin: -182px 0 0 -380px;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+}
+
+.nick, .nick:visited, .nick:hover
+{
+	color: green;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: normal;
+}
+
+.pic
+{
+	min-width: 200px;
+	width: 60%;
+	max-width: 1000px;
+}
+
+@font-face {
+  font-family: 'Luciole';
+  src: url('fonts/Luciole-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Luciole';
+  src: url('fonts/Luciole-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Luciole';
+  src: url('fonts/Luciole-Regular-Italic.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Luciole';
+  src: url('fonts/Luciole-Bold-Italic.ttf');
+  font-style: italic;
+  font-weight: bold;
+}
