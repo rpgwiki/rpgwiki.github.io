@@ -3,11 +3,13 @@ html { height: 100%; }
 .last, .cen { text-align: center; }
 .rig { text-align: right; }
 .half { width: 49%; float: left; }
-.third { width: 33%; float: left; }
+.third { width: 33%; float: left; clear: right;}
 
 a:link, a:visited, a:hover, a:active { color: darkblue; }
-
 h1.mon, h2.mon, h1.mon a { color: red; }
+table.al { border: solid 1px black; float: right; margin: 5px;}
+table.al td {padding: 2px;}
+table.al td.yes { background: cadetblue; }
 
 blockquote
 {
