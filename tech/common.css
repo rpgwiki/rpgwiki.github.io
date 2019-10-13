@@ -7,7 +7,7 @@ html { height: 100%; }
 
 a:link, a:visited, a:hover, a:active { color: darkblue; }
 h1.mon, h2.mon, h1.mon a { color: red; }
-table.al { border: solid 1px black; float: right; margin: 5px;}
+table.al { border: solid 1px cadetblue; float: right; margin: 5px; text-align: center; border-collapse: collapse;}
 table.al td {padding: 2px;}
 table.al td.yes { background: cadetblue; }
 
