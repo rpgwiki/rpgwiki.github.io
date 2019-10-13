@@ -1,7 +1,1 @@
-*$py.class
-*.lst
-*.py
-.pytest_cache/
-.Python
-__pycache__/
 Makefile
