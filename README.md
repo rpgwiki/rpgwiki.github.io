@@ -1,2 +1,3 @@
-# rpgwiki.github.io
-RPG Wiki static spinoff
+# RPG Wiki static spinoff with side projects
+
+WORK IN PROGRESS!
