@@ -13,6 +13,18 @@ table.al td.yes { background: cadetblue; }
 div.ill { float: right; }
 div.ill img {max-width: 400px;}
 
+header div.nav
+{
+  width: calc(100% - 11px);
+  padding: 1px;
+  padding-left: 10px;
+  margin: 0px;
+  background: white;
+}
+
+.nav h2 span.nav { float: right; padding-right: 10px;}
+span.nav a:link { text-decoration: none; font-weight: normal;}
+
 blockquote
 {
 	border: solid 2px black;
