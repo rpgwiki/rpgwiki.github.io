@@ -1,11 +1,12 @@
-html { height: 100%; }
+html { height: 100%; line-height:1.6;}
+h1,h2,h3{line-height:1.2}
 .cyclopes img { width: 100%; }
 .last, .cen { text-align: center; }
 .rig { text-align: right; }
 .half { width: 49%; float: left; }
 .third { width: 33%; float: left; clear: right;}
 
-a:link, a:visited, a:hover, a:active { color: darkblue; }
+a:link, a:visited, a:hover, a:active { color: #552288; }
 h1.mon, h2.mon, h1.mon a, h2 .mon { color: red; }
 table.al { border: solid 1px cadetblue; float: right; margin: 5px; text-align: center; border-collapse: collapse;}
 table.al td {padding: 2px;}
