@@ -6,6 +6,8 @@ h1,h2,h3{line-height:1.2}
 .half { width: 49%; float: left; }
 .third { width: 33%; float: left; clear: right;}
 
+.cover {float:left; margin-right: 30px;}
+
 a:link, a:visited, a:hover, a:active { color: #552288; }
 h1.mon, h2.mon, h1.mon a, h2 .mon { color: red; }
 table.al { border: solid 1px cadetblue; float: right; margin: 5px; text-align: center; border-collapse: collapse;}
@@ -35,7 +37,7 @@ blockquote
 body
 { 
 	font-family: Luciole, Verdana, sans-serif;
-	font-size: 12px;
+	/*font-size: 12px;*/
 	background: #efe6dd;
 	height: 100%;
 }
@@ -117,4 +119,78 @@ body
   src: url('../fonts/Luciole-Bold-Italic.ttf');
   font-style: italic;
   font-weight: bold;
+}
+
+.spine
+{
+  font-size: small;
+  background-color: orange;
+  
+}
+.spine > span {writing-mode: tb-rl;}
+.spine > span > span {writing-mode: sideways-lr;}
+.spine a {text-decoration: none; color: black;}
+
+.wrap-collabsible {
+  margin-bottom: 1.2rem 0;
+}
+
+input[type='checkbox'] { display: none; }
+
+.lbl-toggle {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  background: chocolate;
+  border-radius: 10px;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle:hover {
+  color: #7C5A0B;
+}
+
+.lbl-toggle::before {
+  content: ' ';
+  display: inline-block;
+
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+  vertical-align: middle;
+  margin-right: .7rem;
+  transform: translateY(-2px);
+
+  transition: transform .2s ease-out;
+}
+
+.toggle:checked + .lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 1000px;
+}
+
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner {
+  background: burlywood;
+  border-bottom: 1px solid rgba(250, 224, 66, .45);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: .5rem 1rem;
 }
