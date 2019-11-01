@@ -179,7 +179,7 @@ input[type='checkbox'] { display: none; }
 }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
-  max-height: 1000px;
+  max-height: 2000px;
 }
 
 .toggle:checked + .lbl-toggle {
@@ -193,4 +193,16 @@ input[type='checkbox'] { display: none; }
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
   padding: .5rem 1rem;
+}
+
+img.cover {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+img.cover:hover {
+  -webkit-filter: blur(2px);
 }
