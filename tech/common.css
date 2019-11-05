@@ -179,7 +179,7 @@ input[type='checkbox'] { display: none; }
 }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
-  max-height: 2000px;
+  max-height: 5000px;
 }
 
 .toggle:checked + .lbl-toggle {
