@@ -10,6 +10,7 @@ td.B { background: blue;       color: white; }
 td.C { background: red;        color: white; }
 td.D { background: chartreuse; }
 td.F { background: brown;      color: white; }
+td.S { background: cyan; }
 
 table#esper tr td:nth-child(5), td.m { color: red; }
 table#esper tr td:nth-child(6), td.s { color: blue; }
